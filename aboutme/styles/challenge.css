@@ -1,0 +1,66 @@
+body {
+    background-color: #ffa4cc;
+}
+
+#hover_banner {
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#hover_banner:hover {
+    color: black;
+}
+
+#for_white {
+    color: white;
+}
+
+#smallp {
+    text-align: center;
+    margin: 0 35%;
+}
+
+#medium {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+#list {
+    text-align: center;
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+    font-weight: bold;
+}
+
+.margin {
+    margin: 10px auto;
+}
+
+img {
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+}
+
+#pres_message p {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    margin: 30px 40%;
+}
+
+footer {
+    margin: 60px auto;
+}
+
+.bottom {
+    text-align: center;
+    display: block;
+    margin: 0 38.9%;
+}
