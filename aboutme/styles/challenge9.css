@@ -1,0 +1,56 @@
+body {
+    background-color: #1e1e1e;
+}
+
+#background {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#full_card {
+    grid-column: 2/3;
+    display: grid;
+    overflow: hidden;
+    border-radius: 5%;
+}
+
+#hero_image {
+    width: 100%;
+}
+
+#content_background {
+    background-color: white;
+    height: 500px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.grid_child {
+    background-color: #3f5b8b;
+    text-align: center;
+    border-left: 1px solid gray;
+}
+
+h4 {
+    text-align: center;
+    color: #3f5b8b;
+}
+
+h1 {
+    text-align: center;
+}
+
+#content_background p {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 10%;
+    color: gray;
+}
+
+.grid_text {
+    color: white;
+}
