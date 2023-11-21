@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One|Tilt+Neon');
+
+body {
+    background-color: #FFD6D6;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #9E1A1A;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+#logo-link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo {
+    width: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: Tilt Neon, Helvetica, sans-serif;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #992CFF;
+    color: #FFE433;
+    text-decoration: underline;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#hero-img {
+    width: 100%;
+    margin-top: -350px;
+    margin-bottom: 100px;
+}
+
+#hero-msg { 
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: center;
+}
+
+.home-title {
+    color: #3DF529;
+    font-size: 3em;
+    margin-top: 90px;
+    text-align: center;
+    font-family: Rubik Mono One, Impact, Arial;
+    text-shadow: 5px 5px 10px #789564;
+}
+
+#hero-msg p {
+    color: #3DF529;
+    text-align: center;
+    text-align: justify;
+    text-align-last: justify;
+    margin-top: 70px;
+    margin-left: -163px;
+    margin-right: -163px;
+    font-size: 2em;
+    font-weight: bolder;
+    font-family: Tilt Neon, Helvetica, sans-serif;
+    text-shadow: 10px 10px 20px #90a880;
+
+}
+
+.title-boxes {
+    width: 40%;
+    background-color: #564D50;
+    color: #FFE433;
+    border-radius: 50px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Rubik Mono One, Impact, Arial;
+}
+
+#artist-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: -25px;
+    margin-bottom: 140px;
+}
+
+#artist-grid section:hover {
+    transform: scale(1.1);
+}
+
+.artist-card-daft, .artist-card-steve, .artist-card-hardwell, .artist-card-skrillex, .artist-card-excision, .artist-card-thefatrat, .artist-card-deadmau5, .artist-card-illenium {
+    padding: 30px;
+}
+
+.artist-card-daft {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.artist-card-steve {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.artist-card-hardwell {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.artist-card-skrillex {
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+.artist-card-excision {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.artist-card-thefatrat {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.artist-card-deadmau5 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.artist-card-illenium {
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.card-img {
+    border: 20px solid #992CFF;
+    width: 100%;
+    box-shadow: 5px 5px 10px #6f7364
+}
+
+.artist-name {
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 50px;
+    background-color: #564D50;
+    color: #FFE433;
+    width: 65%;
+    font-family: Tilt Neon, Helvetica, sans-serif;
+    font-weight: bolder;
+    box-shadow: 5px 5px 10px #6f7364
+}
+
+hr {
+    height: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: #3DF529;
+}
+
+#genre-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#genre-grid h2:hover {
+    transform: scale(1.1);
+}
+
+.genre-card-future, .genre-card-trap, .genre-card-melodic, .genre-card-deathstep, .genre-card-ambient, .genre-card-dubstep, .genre-card-house, .genre-card-hardcore, .genre-card-electro, .genre-card-speedcore, .genre-card-drum, .genre-card-deep {
+    text-align: center;
+    justify-self: center;
+    width: 55%;
+    margin: 20px auto;
+    border-radius: 50px;
+    background-color: #564D50;
+    color: #FFE433;
+    font-family: Tilt Neon, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px #6f7364
+}
+
+.genre-card-future {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.genre-card-trap {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.genre-card-melodic {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.genre-card-deathstep {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.genre-card-ambient {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.genre-card-dubstep {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.genre-card-house {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.genre-card-hardcore {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.genre-card-electro {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.genre-card-speedcore {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.genre-card-drum {
+    grid-column: 2/3;
+    grid-row: 4/5;
+
+}
+
+.genre-card-deep {
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+
+#button-grid {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.button-light, .button-dark {
+    text-align: center;
+    justify-self: center;
+    background-color: #564D50;
+    color: #3DF529;
+    font-family: Rubik Mono One, Impact, Arial;
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.button-light:hover, .button-dark:hover {
+    color: #FFE433;
+    text-decoration: underline;
+    background-color: #992CFF;
+    transform: scale(1.15);
+}
+
+.button-light {
+    grid-column: 1/2;
+}
+
+.button-dark {
+    grid-column: 2/3;
+}
+
+footer {
+    background-color: #9E1A1A;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    font-size: 1.2em;
+    font-family: Tilt Neon, Helvetica, sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: #FFE433;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
