@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One|Tilt+Neon');
 
 body {
-    background-color: #FFD6D6;
+    background-color: white;
     margin: 0;
     padding: 0;
     font-size: 22px;
@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #9E1A1A;
+    background-color: black;
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -305,7 +305,7 @@ hr {
 }
 
 footer {
-    background-color: #9E1A1A;
+    background-color: black;
     color: white;
     padding: 25px 50px;
     margin-top: 160px;
@@ -330,4 +330,163 @@ footer a:hover {
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+
+
+
+
+
+/*lighter edm css*/
+
+#page2 {
+    background-color: #EBD6FF;
+}
+
+#page2 .page-title {
+    color: #992CFF;
+    font-family: Rubik Mono One, Impact, Arial;
+    font-size: 3.3em;
+    text-shadow: 2px 2px 4px #6d5492;
+}
+
+#page2 .title-info {
+    border: 10px solid #992CFF;
+}
+
+#page2 .song-image {
+    width: 100%;
+    border: 15px solid #992CFF;
+    box-shadow: 10px 10px 10px #6d5492;
+}
+
+#page2 .description {
+    border: 10px solid #992CFF;
+    box-shadow: 10px 10px 10px #6d5492;
+}
+
+
+
+
+
+/*darker edm css*/
+
+#page3 {
+    background-color: #FFD6D6;
+}
+
+#page3 .page-title {
+    color: #9E1A1A;
+    font-family: Rubik Mono One, Impact, Arial;
+    font-size: 3.3em;
+    text-shadow: 2px 2px 4px #925454;
+}
+
+#page3 .title-info {
+    border: 10px solid #9E1A1A;
+}
+
+#page3 .song-image {
+    width: 100%;
+    border: 15px solid #9E1A1A;
+    box-shadow: 10px 10px 10px #925454;
+}
+
+#page3 .description {
+    border: 10px solid #9E1A1A;
+    box-shadow: 10px 10px 10px #925454;
+}
+
+
+
+
+
+/*general subpage CSS*/
+
+.hero-content {
+    text-align: center;
+    padding: 5px;
+}
+
+.title-info {
+    background-color: #564D50;
+    color: #FFE433;
+    padding: 20px;
+    font-size: 1.5em;
+    text-align: justify;
+    text-align-last: justify;
+    margin-right: 140px;
+    margin-left: 140px;
+    font-family: Tilt Neon, Helvetica, sans-serif;
+    font-weight: bolder;
+    border-radius: 20px;
+    margin-bottom: 125px;
+    box-shadow: 10px 10px 10px #6f7364
+}
+
+.example-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.example-card {
+    padding-right: 70px;
+    padding-left: 70px;
+    margin-top: 75px;
+}
+
+#page2 hr, #page3 hr {
+    margin-bottom: -50px;
+}
+
+.genre-name {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    background-color: #564D50;
+    text-align: center;
+    font-family: Tilt Neon, Helvetica, sans-serif;
+    border-radius: 50px;
+    color: #FFE433;
+}
+
+.song-link {
+    text-align: center;
+    width: 100%;
+    background-color: #564D50;
+    padding: 10px;
+    border-radius: 7px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 20px;
+}
+
+.song-link:hover {
+    transform: scale(1.15);
+}
+
+.example-card p a {
+    color: #3DF529;
+    text-align: center;
+    font-family: Tilt Neon, Helvetica, sans-serif;
+    width: 100%;
+    color: #FFE433;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #564D50;
+    height: 150px;
+    font-family: Tilt Neon, Helvetica, sans-serif;
+    padding: 20px;
+    border-radius: 20px;
+    color: #FFE433;
+}
+
+.song-image:hover {
+    transform: scale(1.05);
 }
