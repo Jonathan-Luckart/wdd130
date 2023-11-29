@@ -58,11 +58,29 @@ nav a:hover {
     z-index: -1;
 }
 
-#hero-img {
+/*#hero-img {
     width: 100%;
     margin-top: -350px;
     margin-bottom: 100px;
-}
+}*/
+
+body, html {
+    height: 100%;
+  }
+  
+.parallax {
+    /* The image used */
+    background-image: url("hero_banner.jpg");
+  
+    /* height */
+    height: 700px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 #hero-msg { 
     grid-column: 2/3;
@@ -108,7 +126,7 @@ nav a:hover {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-top: -25px;
-    margin-bottom: 140px;
+    margin-bottom: 100px;
 }
 
 #artist-grid section:hover {
@@ -272,13 +290,16 @@ hr {
 }
 
 #button-grid {
-    margin-top: 150px;
+    margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
 }
 
 .button-light, .button-dark {
+    grid-row: 1/2;
     text-align: center;
+    align-self: center;
     justify-self: center;
     background-color: #564D50;
     color: #3DF529;
@@ -304,11 +325,26 @@ hr {
     grid-column: 2/3;
 }
 
+.parallax2 {
+    /* The image used */
+    background-image: url("hero_banner.jpg");
+  
+    /* height */
+    height: 500px;
+    grid-column: 1/3;
+    grid-row: 1/2;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
 footer {
     background-color: black;
     color: white;
     padding: 25px 50px;
-    margin-top: 160px;
     display: flex;
     justify-content: space-around;
     align-items: center;
